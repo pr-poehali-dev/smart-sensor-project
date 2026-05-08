@@ -6,9 +6,9 @@ import { cn } from "@/lib/utils"
 
 export default function Hero() {
   const stats = [
-    { value: 50, suffix: "+", label: "Способов заработка" },
-    { value: 100, suffix: "k+", label: "Человек уже зарабатывают" },
-    { value: 5, suffix: " млн+", label: "Максимальный доход в месяц" },
+    { value: 5000, suffix: "₽", label: "За одного курьера Яндекс.Еды" },
+    { value: 400, suffix: "₽", label: "За оформленную карту" },
+    { value: 200, suffix: "₽", label: "За клиента на инфографику" },
   ]
 
   return (
@@ -46,7 +46,7 @@ export default function Hero() {
                 className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 border border-white/30 rounded-full text-sm text-white font-medium backdrop-blur-sm"
               >
                 <div className="w-2 h-2 bg-green-400 rounded-full mr-3 animate-pulse"></div>
-                <span>Всё о заработке в одном месте</span>
+                <span>Реферальная программа · Реальные выплаты</span>
               </motion.div>
 
               <motion.h1
@@ -55,8 +55,8 @@ export default function Hero() {
                 transition={{ duration: 1, delay: 0.3 }}
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
               >
-                <span className="block text-white mb-2">ВСЕ СПОСОБЫ</span>
-                <span className="block text-white mb-2">ЗАРАБОТАТЬ</span>
+                <span className="block text-white mb-2">ЗАРАБАТЫВАЙ</span>
+                <span className="block text-white mb-2">НА ПРИВЛЕЧЕНИИ</span>
                 <span
                   className={cn(
                     "block mb-2 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent font-pacifico",
@@ -65,9 +65,9 @@ export default function Hero() {
                     textShadow: "0 0 40px rgba(147, 51, 234, 0.5)",
                   }}
                 >
-                  Деньги
+                  Лидов
                 </span>
-                <span className="block text-gray-300">В ОДНОМ МЕСТЕ</span>
+                <span className="block text-gray-300">ОТ 200 ДО 5000₽ ЗА ОДНОГО</span>
               </motion.h1>
 
               <motion.p
@@ -76,7 +76,7 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 className="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto lg:mx-0"
               >
-                Фриланс, инвестиции, онлайн-бизнес, пассивный доход — собрали все реальные способы зарабатывать деньги в интернете и офлайн. Выбери свой путь и начни зарабатывать уже сегодня.
+3 простых способа заработать: приводи людей на оформление дебетовой карты, на работу курьером Яндекс.Еды или на услуги инфографики — получай выплату за каждого. Пиши мне в Telegram — выдам реферальную ссылку.
               </motion.p>
             </div>
 
@@ -86,10 +86,10 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.8 }}
               className="flex flex-col gap-6 items-center justify-center lg:justify-start lg:items-start"
             >
-              <a href="#get-started">
+              <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
                 <AnimatedButton variant="slim" className="bg-white text-black hover:bg-gray-100">
                   <span className="flex items-center">
-                    Выбрать способ заработка
+                    Написать в Telegram за ссылкой
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </span>
                 </AnimatedButton>
@@ -118,8 +118,8 @@ export default function Hero() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-white">Проверено</p>
-                    <p className="text-xs text-gray-400">Реальные способы</p>
+                    <p className="text-sm font-medium text-white">Без вложений</p>
+                    <p className="text-xs text-gray-400">Старт за 5 минут</p>
                   </div>
                 </div>
 
@@ -131,8 +131,8 @@ export default function Hero() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-white">50+ способов</p>
-                    <p className="text-xs text-gray-400">Актуальные в 2025</p>
+                    <p className="text-sm font-medium text-white">Выплаты на карту</p>
+                    <p className="text-xs text-gray-400">5–20 дней</p>
                   </div>
                 </div>
 
@@ -143,8 +143,8 @@ export default function Hero() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-white">Бесплатно</p>
-                    <p className="text-xs text-gray-400">Без регистрации</p>
+                    <p className="text-sm font-medium text-white">3 направления</p>
+                    <p className="text-xs text-gray-400">Карты · Яндекс · Лиды</p>
                   </div>
                 </div>
               </div>

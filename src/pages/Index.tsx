@@ -6,7 +6,6 @@ import {
   Hero,
   HowWeWork,
   InnovativeServices,
-  ROICalculatorHome,
   AnimatedFooter,
   MouseMoveEffect,
 } from "@/components/landing"
@@ -22,9 +21,8 @@ export default function Index() {
       <div className="relative z-10">
         <Navbar />
         <Hero />
-        <HowWeWork />
         <InnovativeServices />
-        <ROICalculatorHome />
+        <HowWeWork />
         <AnimatedFooter />
       </div>
     </div>
