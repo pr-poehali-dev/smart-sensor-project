@@ -5,43 +5,43 @@ import AnimatedButton from "./AnimatedButton"
 
 const services = [
   {
-    title: "Таргетированная реклама",
+    title: "Фриланс",
     description:
-      "Стимулируем рост и вовлечение через data-driven рекламу в соцсетях с таргетированными стратегиями для развития бренда.",
+      "Продавай свои навыки — дизайн, текст, код, переводы — на биржах Upwork, FL.ru, Kwork. Свободный график, работа из любой точки мира.",
     mockup: "social",
   },
   {
-    title: "Google Ads",
+    title: "Инвестиции",
     description:
-      "Достигаем клиентов в нужный момент с Google Ads, привлекая трафик и продажи через таргетированную рекламу.",
+      "Акции, облигации, ETF, криптовалюта — деньги работают на тебя. Разбираем каждый инструмент: риски, доходность, с чего начать.",
     mockup: "google-ads",
   },
   {
-    title: "Email / SMS",
-    description: "Достигаем клиентов через таргетированный email и SMS маркетинг, стимулируя продажи и лояльность.",
+    title: "Онлайн-бизнес",
+    description: "Магазин, инфопродукт, подписки, SaaS — сотни моделей бизнеса в интернете. Без офиса и склада, только ноутбук.",
     mockup: "email",
   },
   {
-    title: "SEO",
+    title: "Пассивный доход",
     description:
-      "Повышаем видимость в поисковых системах: аудит сайта, анализ ключевых слов и комплексная оптимизация.",
+      "Аренда, роялти, партнёрские программы, дивиденды — зарабатывай, пока спишь. Реальные схемы без мифов.",
     mockup: "seo",
   },
   {
-    title: "Аналитика",
+    title: "Заработок в соцсетях",
     description:
-      "Отслеживаем эффективность и получаем инсайты с комплексной аналитикой для принятия data-driven решений.",
+      "Монетизация YouTube, Telegram-каналов, Instagram, TikTok. Реклама, донаты, мерч — превращай аудиторию в доход.",
     mockup: "analytics",
   },
   {
-    title: "Веб-разработка",
+    title: "Удалённая работа",
     description:
-      "Создаем сайты любой сложности: от лендингов до крупных порталов, с гибкими тарифами под ваши задачи.",
+      "Официальные удалённые вакансии по всему миру: IT, маркетинг, поддержка, финансы. Стабильный доход без офиса.",
     mockup: "web-dev",
     badges: [
-      { icon: <Shield className="w-4 h-4" />, text: "SSL-защита" },
-      { icon: <DollarSign className="w-4 h-4" />, text: "Без абонплаты" },
-      { icon: <CheckCircle className="w-4 h-4" />, text: "Uptime 99.9%" },
+      { icon: <Shield className="w-4 h-4" />, text: "Без вложений" },
+      { icon: <DollarSign className="w-4 h-4" />, text: "Стабильный доход" },
+      { icon: <CheckCircle className="w-4 h-4" />, text: "Быстрый старт" },
     ],
   },
 ]
@@ -59,9 +59,9 @@ export default function InnovativeServices() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Услуги для роста бизнеса</h2>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Способы заработать деньги</h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Индивидуальные решения для оптимизации, инноваций и масштабирования.
+            От фриланса до инвестиций — все проверенные пути к финансовой свободе в одном месте.
           </p>
         </motion.div>
 

@@ -4,24 +4,24 @@ import { Search, Lightbulb, Rocket } from "lucide-react"
 const steps = [
   {
     number: "01",
-    title: "Анализ и стратегия",
-    description: "Глубоко погружаемся в ваши задачи, исследуем идеи и формируем стратегию для долгосрочного успеха.",
+    title: "Выбери направление",
+    description: "Просмотри все доступные способы заработка: фриланс, инвестиции, онлайн-бизнес, пассивный доход. Выбери то, что подходит именно тебе.",
     icon: <Search className="w-8 h-8" />,
     mockup: "discovery",
     gradient: "from-blue-500/20 to-blue-600/10",
   },
   {
     number: "02",
-    title: "Разработка и тесты",
-    description: "Создаем решения под ваши цели и тщательно тестируем их для максимальной надежности.",
+    title: "Изучи подробнее",
+    description: "Для каждого способа — пошаговое руководство, реальные цифры доходов, необходимые навыки и стартовый капитал.",
     icon: <Lightbulb className="w-8 h-8" />,
     mockup: "development",
     gradient: "from-purple-500/20 to-purple-600/10",
   },
   {
     number: "03",
-    title: "Запуск и поддержка",
-    description: "Бесшовно внедряем решение и обеспечиваем его стабильную работу с постоянной поддержкой.",
+    title: "Начни зарабатывать",
+    description: "Переходи по ссылкам на проверенные платформы и ресурсы. Первые деньги можно получить уже в первую неделю.",
     icon: <Rocket className="w-8 h-8" />,
     mockup: "launch",
     gradient: "from-green-500/20 to-green-600/10",
@@ -39,9 +39,9 @@ export default function HowWeWork() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Как мы работаем</h2>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Как начать зарабатывать</h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Простой и эффективный подход к развитию вашего бренда на высшем уровне.
+            Три простых шага от выбора способа до первых реальных денег на счету.
           </p>
         </motion.div>
 

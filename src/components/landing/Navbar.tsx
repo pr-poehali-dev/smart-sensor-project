@@ -50,7 +50,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <a href="/" className="flex items-center space-x-3">
                 <span className="text-xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  Pulse Digital
+                  МирЗаработка
                 </span>
               </a>
             </div>
@@ -58,13 +58,13 @@ export default function Navbar() {
             <div className="hidden md:block">
               <div className="flex items-center space-x-8">
                 <a href="#services" className="text-sm text-gray-300 hover:text-blue-400 transition-colors">
-                  Услуги
+                  Способы заработка
                 </a>
                 <a href="#artists" className="text-sm text-gray-300 hover:text-purple-400 transition-colors">
-                  Клиенты
+                  Категории
                 </a>
                 <a href="#success-stories" className="text-sm text-gray-300 hover:text-green-400 transition-colors">
-                  Кейсы
+                  Истории успеха
                 </a>
                 <a href="#contact" className="text-sm text-gray-300 hover:text-orange-400 transition-colors">
                   Контакты
@@ -96,13 +96,13 @@ export default function Navbar() {
           <div className="md:hidden border-t border-gray-700/50 bg-gray-900/80 backdrop-blur-md rounded-b-2xl">
             <div className="px-6 py-4 space-y-3">
               <a href="#services" className="block text-gray-300 hover:text-blue-400">
-                Услуги
+                Способы заработка
               </a>
               <a href="#artists" className="block text-gray-300 hover:text-purple-400">
-                Клиенты
+                Категории
               </a>
               <a href="#success-stories" className="block text-gray-300 hover:text-green-400">
-                Кейсы
+                Истории успеха
               </a>
               <a href="#contact" className="block text-gray-300 hover:text-orange-400">
                 Контакты
